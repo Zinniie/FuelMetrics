@@ -1,0 +1,10 @@
+.footer{
+    margin-top: 100px;
+}
+.subscribe-auth {
+    /* width: 60%; */
+  }
+  .subscribe-auth input {
+    border: none;
+    border-color: transparent;
+  }

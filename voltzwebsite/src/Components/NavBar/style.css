@@ -1,0 +1,22 @@
+
+.nav_text{
+    font-weight: 600;
+    font-size: 20px;
+}
+  .nav_text span{ 
+    color:blueviolet;
+  }
+  .nav-categories{
+    margin-right: 150px;
+    width: 250px;
+  }
+  .nav-categories i{
+    color: blueviolet;
+  }
+  .nav-auth{
+    width: 150px;
+  }
+
+  .nav-auth .signup{
+    background-color: rgb(30, 30, 77);
+  }

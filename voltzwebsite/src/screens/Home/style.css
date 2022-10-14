@@ -1,0 +1,92 @@
+.hero-content {
+  /* height: 100vh; */
+  /* width: 100%; */
+  /* overflow-x: hidden; */
+}
+
+.left-hero-content {
+  margin-top: 150px;
+  /* height: 80vh; */
+  padding: 10px 0 0 70px;
+}
+.left-hero-para {
+  color: #2f3134;
+  font-size: 25px;
+  font-weight: 500;
+}
+.left-hero-title {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 70px;
+}
+.left-hero-para2 {
+  font-weight: 400;
+  font-size: 19px;
+
+  color: rgb(143, 136, 136);
+}
+.try-btn {
+  background: rgb(103, 9, 191);
+}
+.email-auth {
+  width: 60%;
+}
+.email-auth input {
+  border: none;
+  border-color: transparent;
+}
+
+.right-hero-content {
+  background-color: rgb(10, 10, 52);
+  /* width: 200px; */
+  /* position: fixed;
+    margin-top: 3px;
+    top:0px;
+    right:0px; */
+}
+.right-hero-content {
+}
+
+.hero-row {
+  height: 100vh !important;
+}
+.tag {
+  text-align: center;
+}
+
+.slick-slide img {
+  /* margin: auto; */
+  margin-top: 100px;
+  width: 70%;
+  height: 50%;
+}
+.second-content{
+  margin-top: 150px;
+}
+.phone-container{
+  position: relative;
+}
+.temperature{
+  position: absolute;
+  top: 20px;
+}
+.alarm{
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+.spotlight{
+  position: absolute;
+  left: 100px;
+}
+.detector{
+  position: absolute;
+  right: 100px;
+}
+.alarm-icon, .temperature-icon, .spotlight-icon, .detector-icon{
+  background: #31d97c;
+}
+.alarm, .temperature, .spotlight, .detector{
+  height: 60px;
+  font-size: 16px;
+}
