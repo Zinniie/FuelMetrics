@@ -1,8 +1,8 @@
-.hero-content {
+/* .hero-content {
   /* height: 100vh; */
   /* width: 100%; */
   /* overflow-x: hidden; */
-}
+
 
 .left-hero-content {
   margin-top: 150px;
@@ -38,15 +38,13 @@
 
 .right-hero-content {
   background-color: rgb(10, 10, 52);
+  height: 90vh;
   /* width: 200px; */
   /* position: fixed;
     margin-top: 3px;
     top:0px;
     right:0px; */
 }
-.right-hero-content {
-}
-
 .hero-row {
   height: 100vh !important;
 }
@@ -60,33 +58,228 @@
   width: 70%;
   height: 50%;
 }
-.second-content{
+
+/* .second-content{
   margin-top: 150px;
-}
+} */
 .phone-container{
   position: relative;
 }
+.middlephone{
+  width: 370px;
+  height: 700px;
+  /* position: absolute;
+  top: -590px; */
+}
 .temperature{
   position: absolute;
-  top: 20px;
+  top: 150px;
+  left: 180px;
 }
 .alarm{
   position: absolute;
-  right: 20px;
-  top: 30px;
+  right: 180px;
+  top: 100px;
 }
 .spotlight{
   position: absolute;
-  left: 100px;
+  left: 90px;
+  top: 400px;
 }
 .detector{
   position: absolute;
-  right: 100px;
+  right: 90px;
+  top: 350px;
 }
 .alarm-icon, .temperature-icon, .spotlight-icon, .detector-icon{
   background: #31d97c;
+  height: 60px;
+  width: 60px;
 }
 .alarm, .temperature, .spotlight, .detector{
-  height: 60px;
-  font-size: 16px;
+  height: 90px;
+  font-size: 18px;
+  width: 230px;
 }
+.scrolley{
+  font-size: 150px;
+  font-weight: 600;
+  /* position: absolute; */
+  bottom : 100px;
+  margin-top: 610px;
+  margin-bottom: -30px;
+}
+.testimonial-content{
+  background: #d8f3f3;
+}
+.fa-minus{
+  font-size: 30px;
+}
+.enhance-feature{
+  font-size: 60px;
+  font-weight: 700;
+}
+.feature-img-container{
+
+}
+.leftphone{
+  width: 50%;
+}
+.feature-row{
+  /* transition: 3s; */
+  /* transition: ease-in-out 3s; */
+  }
+  .feature-img-container2{
+    background: #2c916a;
+  }
+  .feature-text, .feature-text2{
+    font-size: 28px;
+    font-weight: 600;
+  }
+     .feature-textt,
+     .feature-textt2 {
+       font-size: 28px;
+       color: #2c916a;
+       font-weight: 600;
+     }
+     .feature-text3{
+      font-size: 14px;
+      font-weight: 300;
+     }
+     .gadgets{
+      width: 100%;
+     }
+     .about-text-text{
+      font-size: 60px;
+      /* animation: transitionIn 0.2n; */
+     }
+     /* @keyframes transitionIn{
+      from {
+        opacity: 0;
+          transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: rotateX(0);
+      }
+     } */
+     .about-text-main{
+      font-size: 30px;
+      font-weight: 300;
+     }
+     .download-text{
+      font-size: 40px;
+      font-weight: 700;
+     }
+     
+     .testimonial-heading-text{
+      font-size: 46px;
+      font-weight: 600;
+      line-height: 56px;
+     }
+     .testimonial-heading-text2{
+      margin-left: 40px !important;
+      margin-top: 5px;
+     }
+    .col-first{
+      position: relative;
+     /* margin-left: 350px; */
+     }
+     .testimonial-heading-text i{
+      color: #c2d0f4;
+      /* width: 54px; */
+     }
+     .testimonial-heading{
+      position: absolute;
+      right: 30px;
+      top: -10px;
+      width: 400px;
+     }
+     .testimonial{
+      width: 50%;
+      font-weight: 500;
+      font-size: 22px;
+     }
+     .review-text{
+      font-size: 18px;
+      line-height: 24px;
+     }
+     .review-text i{
+      color: #2c4c9f;
+     }
+     /* .reviews-text1{
+      font-size: 18px;
+      font-weight: 500;
+     } */
+     .client-img__cover{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+     }
+     .client-image__main{
+      width: 100%;
+      height: 100%;
+     }
+     .reviewimg{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+     }
+     .reviewimage{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+     }
+
+     .ht{
+      height: 270px;
+     }
+
+     .h1{
+      height: 400px;
+      margin-top: 150px;
+     }
+
+ @media (max-width:450px) {
+   /* .hero-row{
+    display: flex;
+    flex-direction: row;
+   } */
+   .left-hero-content{
+    /* width: 110%; */
+    background-color: #31d97c;
+   }
+   .right-hero-content{
+    margin-top: 5px;
+   }
+   .second-content{
+    margin-top: 750px;
+   }
+     .alarm,
+     .temperature,
+     .spotlight,
+     .detector{
+      position: relative;
+      width: 300px;
+      left: 60px;
+     }
+     .temperature{
+      top: 50px; 
+     }
+     .spotlight{
+      top: 130px;
+     }
+     .detector{
+      top: 170px;
+     }
+     .features-content{
+      margin-top: 200px;
+     }
+      .feature-container-detailed{
+        margin-top: 50px;
+      }
+      .enhance-feature{
+        font-size: 30px;
+      }
+ }

@@ -20,3 +20,13 @@
   .nav-auth .signup{
     background-color: rgb(30, 30, 77);
   }
+
+     @media (max-width:450px) {
+      .nav-categories{
+        display: none !important;
+      }
+      .login{
+        color: rgb(30, 30, 77) !important;
+        font-size: 20px;
+      }
+     }

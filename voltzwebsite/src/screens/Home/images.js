@@ -1,14 +1,15 @@
-import IMG_1 from "./imageshome/images1.jpg";
+// import IMG_1 from "../../assets/images/images1.jpg";
+// import IMG_2 from "../../assets/images/phonev.png";
 
 const images = [
   {
     id: 1,
-    src: IMG_1,
+    src: "",
     alt: "Image 1",
   },
   {
     id: 2,
-    src: "./images/images1.jpg",
+    src: "",
     alt: "Image 2 ",
   },
   {

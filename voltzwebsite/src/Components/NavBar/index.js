@@ -7,7 +7,7 @@ const NavBar = () => {
         <div className="nav__brand  d-flex align-items-center justify-content-between">
           <div className="nav_img w-25"></div>
           <div className="nav_text w-75 d-flex align-items-center justify-content-center mt-1">
-            Smart <span className="mx-1">Control</span>
+            Voltz <span className="mx-1">Control</span>
           </div>
         </div>
         <div className="nav-categories d-flex align-items-center justify-content-between">
@@ -19,7 +19,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className="nav-auth d-flex align-items-center justify-content-between">
-          <div className="text-white">Login</div>
+          <div className="login text-white">Login</div>
           <div className="signup shadow-lg py-2 px-3 rounded-3 text-white">
             Sign Up
           </div>
