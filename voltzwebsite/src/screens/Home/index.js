@@ -81,11 +81,11 @@ const Home = () => {
          
       </div>
 
-      <div className="container features-content ">
+      <div className="container features-content mt-5">
         <div className="feature-container d-flex flex-column align-items-center justify-content-center">
           <div className="d-flex feat">
-            <div className="mx-1 dash-icon"><ion-icon name="remove"></ion-icon></div>
-             <div className="feature"> Our features</div>
+            {/* <div className=" dash-icon"><ion-icon class='fs-1 ' name="remove"></ion-icon></div> */}
+             <div className="feature "> Our features</div>
           </div>
          
           <div className="enhance-feature text-center">Enhance Your Space <br/>
@@ -96,13 +96,13 @@ with The Amazing <br/> Features</div>
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <div className="feature-container-detailed ">
           <div className="feature-img-container bg-black">
-            <div className="feature-img d-flex align-items-center justify-content-center"> <img className="leftphone mt-3" src={ LeftImg }alt="App Store" /></div>
+            <div className="feature-img d-flex align-items-center justify-content-center"> <img className="leftphone " src={ LeftImg }alt="App Store" /></div>
           </div>
           
           <div className="feature-text mt-3">01</div>
-          <div className="feature-text2 mt-3">Monthly summary and <br/>
+          <div className="feature-text2 mt-2">Monthly summary and <br/>
 statistics right on <br/> your fingertips</div>
-          <div className="feature-text3 mt-3">Voltz helps you to understand your monthly <br/>
+          <div className="feature-text3 mt-2">Voltz helps you to understand your monthly <br/>
 summary, spending, and usage better. <br/>Download now to get started</div>
         </div>
             </div>
@@ -110,12 +110,12 @@ summary, spending, and usage better. <br/>Download now to get started</div>
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 ">
               <div className="feature-container-detailed ">
           <div className="feature-img-container2 ">
-            <div className="feature-img d-flex align-items-center justify-content-center"> <img className="leftphone mt-3" src={ CenterImg }alt="App Store" /></div>
+            <div className="feature-img d-flex align-items-center justify-content-center"> <img className="middlefphone " src={ CenterImg }alt="App Store" /></div>
           </div>
           <div className="feature-textt mt-3">02</div>
-          <div className="feature-textt2 mt-3">Fully control your<br/>
+          <div className="feature-textt2 mt-2">Fully control your<br/>
 home by rooms or by<br/> the devices</div>
-          <div className="feature-text3 mt-3">Voltz gives you detailed information of any<br/>
+          <div className="feature-text3 mt-2">Voltz gives you detailed information of any<br/>
 devices in any room you have. You also have <br/> a full control of them.</div>
         </div>
             </div>
@@ -123,12 +123,12 @@ devices in any room you have. You also have <br/> a full control of them.</div>
             <div className="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 ">
               <div className="feature-container-detailed ">
           <div className="feature-img-container bg-black">
-            <div className="feature-img d-flex align-items-center justify-content-center"> <img className="leftphone mt-3" src={ RightImg }alt="App Store" /></div>
+            <div className="feature-img d-flex align-items-center justify-content-center"> <img className="rightphone" src={ RightImg }alt="App Store" /></div>
           </div>
           <div className="feature-text mt-3">03</div>
-          <div className="feature-text2 mt-3">Automate everything<br/>
+          <div className="feature-text2 mt-2">Automate everything<br/>
 and let us get all things<br/>ready for you</div>
-          <div className="feature-text3 mt-3">Voltz newest feature, we help you to create <br/>an automton to autom your work, we <br/>
+          <div className="feature-text3 mt-2">Voltz newest feature, we help you to create <br/>an automton to autom your work, we <br/>
 Will get anthing ready for you</div>
         </div>
             </div>
@@ -161,11 +161,12 @@ Will get anthing ready for you</div>
 
       
 
-      {/* <div className="testimonial-content mt-5 border border-danger ">
+      <div className="testimonial-content mt-5 border border-danger ">
         
-        {/* <div className=" mt-1 py-5"><TextSlider text={text}/></div>  */}
+        <div className=" mt-1 py-5"><TextSlider text={text}/></div>  
+
       
-      {/* </div> */} 
+      </div> 
 
       <div className="container-fluid ">
         

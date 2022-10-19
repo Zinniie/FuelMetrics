@@ -15,8 +15,8 @@ const Footer = () => {
                     
                     {/* <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"> */}
                       <div className="top-footer-text">
-                        <div className="top-footer-text1">Manage your smart <br/>device from your <br/>mobile</div>
-                        <div className="top-footer-text2 mt-3">Download the app to manage your projects, keep track of the <br/>
+                        <div className="top-footer-text1">Manage your smart device from your mobile</div>
+                        <div className="top-footer-text2 mt-3">Download the app to manage your projects, keep track of the
                          progress and complete tasks without procastinating.</div>
                          <div className="mt-4 get">Get the App</div>
                          <div className="auth-store mt-2 d-flex">
@@ -29,7 +29,7 @@ const Footer = () => {
               </div>
 
               <div className="container-fluid ">
-                 <div class="row pt-5">
+                 <div class="row pt-5 pb-5">
                   <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                     <div class="f rounded-1 card-info_cover">
                       <div class="py-4">
@@ -55,7 +55,7 @@ const Footer = () => {
                   </div>
 
                   <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
-                    <div class="footer-categories border border-success rounded-1 card-info_cover ">
+                    <div class="footer-categories rounded-1 card-info_cover ">
                       <div class="">
                         <h4>Company</h4>
                         <p className="mt-3">About</p>
