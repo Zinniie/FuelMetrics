@@ -16,13 +16,14 @@
 }
 .left-hero-title {
   font-size: 70px;
+  width: 500px;
   font-weight: 600;
   line-height: 70px;
 }
 .left-hero-para2 {
   font-weight: 400;
   font-size: 19px;
-
+  width: 370px;
   color: rgb(143, 136, 136);
 }
 .try-btn {
@@ -257,18 +258,28 @@ height: 290px;
 
  @media (max-width:450px) {
    /* .hero-row{
-    display: flex;
-    flex-direction: row;
+    padding
    } */
-   .left-hero-content{
-    /* width: 110%; */
-    background-color: #31d97c;
+ 
+   .left-hero-content-heading{
+    width: 100%;
    }
+   .left-hero-title{
+    width: 380px;
+    margin-left: -70px;
+    font-size: 50px;
+    margin-top: 10px;
+   }
+     .left-hero-para2 {
+width: 300px;
+  margin-left: -60px;
+  margin-top: 10px;
+     }
    .right-hero-content{
-    margin-top: 5px;
+    margin-top: 50px !important;
    }
    .second-content{
-    margin-top: 750px;
+    margin-top: 600px;
    }
      .alarm,
      .temperature,
@@ -313,7 +324,9 @@ height: 290px;
       .testimonial-heading-text{
         font-size: 26px;
         line-height: 38px;
-        
+      }
+      .testimonial-content{
+        display: none;
       }
  }
  

@@ -23,15 +23,18 @@ const Home = () => {
         <div className="row hero-row  ">
           <div className="col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7 ">
             <div className="left-hero-content">
-              <div className="left-hero-para">Voltz Smart Panel...</div>
+              <div className="left-hero-content-heading">
+                <div className="left-hero-para">Voltz Smart Panel...</div>
               <div className="left-hero-title ">
-                Created to make <br /> life much Easier
+                Created to make life much Easier
               </div>
               <div className="left-hero-para2 mt-3">
-                Smart Control is helping the users to achieve <br />
-                the best and comfortable atmosphere for their <br /> home.
+                Voltz Control is helping the users to achieve 
+                the best and comfortable atmosphere for their home.
               </div>
 
+              </div>
+              
               <div className="left-hero-auth  mt-5">
                 <div className="email-auth rounded-3 py-2 px-3 shadow-lg bg-white d-flex align-items-center justify-content-between">
                   <input placeholder="Enter your Email"></input>
