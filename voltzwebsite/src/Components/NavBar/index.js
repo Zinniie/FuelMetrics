@@ -5,7 +5,7 @@ const NavBar = () => {
     <div>
       <nav className="navbar fixed-top top-nav py-4  px-5 d-flex align-items-center justify-content-between ">
         <div className="nav__brand  d-flex align-items-center justify-content-between">
-          <div className="nav_img w-25"></div>
+          <div className="nav_img w-25">V</div>
           <div className="nav_text w-75 d-flex align-items-center justify-content-center mt-1">
             Voltz <span className="mx-1">Control</span>
           </div>
